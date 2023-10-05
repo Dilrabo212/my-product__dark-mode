@@ -1,0 +1,122 @@
+@import '../../sass/variables.scss';
+.management {
+    width: 100%;
+
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 30.5px;
+    margin-bottom: 114.8px;
+}
+
+.flexi {
+    display: flex;
+}
+
+.leftContent {
+    width: 50%;
+}
+
+.subTitle {
+    margin-bottom: 10px;
+    color:var--($light-green);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.mainTitle {
+    color:var--($light-green);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 23px;
+}
+
+.mainText {
+    color:var--($light-green);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 458px;
+    flex-shrink: 0;
+    margin-bottom: 25px;
+    margin-left: 30px;
+
+}
+
+.rightContent {
+    width: 40%;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexBtn {
+    display: flex;
+    column-gap: 30.5px;
+    margin-top: 25px;
+}
+
+@media screen and (max-width:1352px) {
+    .rightContent {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:1090px) {
+    .mainText {
+        color:var--($light-green);
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        width: 350px;
+        flex-shrink: 0;
+        margin-bottom: 15px;
+        margin-left: 20px;
+
+    }
+}
+
+@media screen and (max-width:1060px) {
+
+    .leftContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .rightContent>img {
+        width: 400px;
+    }
+
+    .subTitle {
+        margin-top: 50px;
+    }
+
+    .rightContent {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 25px;
+    }
+}

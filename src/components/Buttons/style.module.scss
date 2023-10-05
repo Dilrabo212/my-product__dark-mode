@@ -1,0 +1,62 @@
+@import '../../sass/variables.scss';
+.lightButton {
+    padding: 15px 34px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5;
+    color: #173A56;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.greenButton {
+    padding: 15px 34px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: $secondary-color;
+    color:$main-color;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+
+}
+
+.play {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: $secondary-color;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration-line: underline;
+    cursor: pointer;
+}
+
+.playText {
+    display: flex;
+
+}
+
+.playIcon {
+    margin-right: 5px;
+}
+
+@media screen and (max-width:950px) {
+    .greenButton {
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .lightButton {
+        padding: 10px 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,61 @@
+@import './sass/variables.scss';
+@import './sass/fonts.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: $main-font-family;
+  background-color:$main-color ;
+  color: $dark-green;
+  border-color:$dark-green ;
+}
+
+
+a {
+  text-decoration: none;
+  color: $main-color;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+// .theam--light{
+//   background-color:$main-color ;
+//   color: $dark-green;
+//   border-color:$dark-green ;
+  
+// }
+.page__body--theeam--dark{
+  background-color: $dark-green;
+  color: $main-color;
+  border-color:$main-color ;
+  
+}
+// body[data-theme="dark"] {
+//   background-color: $dark-green;
+//   color: $main-color;
+// }
+
+// body[data-theme="light"] {
+//   background-color: $main-color;
+//   color: $dark-green;
+// }
+
+// @media (prefens-color-scheme: dark) {
+//   .body {
+//     background-color: $dark-green;
+//     color: $main-color;
+//   }
+// }
+// @media (prefens-color-scheme: light) {
+//   .body {
+//     background-color: $main-color;
+//     color: $dark-green;
+//   }
+// }
